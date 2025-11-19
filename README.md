@@ -14,6 +14,8 @@ Author: Pierce Issah
 
 Below are links that will direct you to the app.
 
+- [Vercel Link](https://pi-campus-directory-app-61s7.vercel.app/)
+
 ## Project Overview
 
 Project Description
