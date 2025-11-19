@@ -1,8 +1,8 @@
 export default function StudentCard({ name, major, year }) {
   // View output in console
-  console.log(name);
-  console.log(major);
-  console.log(year);
+  //   console.log(name);
+  //   console.log(major);
+  //   console.log(year);
 
   return (
     <div className="rounded-xl bg-slate-600 p-5">
