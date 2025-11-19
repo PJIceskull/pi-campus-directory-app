@@ -1,5 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Link from "next/link";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -22,9 +23,9 @@ function NavBar() {
       style={{ padding: "1rem" }}
       className="bg-gray-800 flex gap-15 justify-center"
     >
-      <a href="/">Home</a>
-      <a href="/students">Students</a>
-      <a href="/faculty">Faculty</a>
+      <Link href="/">Home</Link>
+      <Link href="/students">Students</Link>
+      <Link href="/faculty">Faculty</Link>
     </nav>
   );
 }
