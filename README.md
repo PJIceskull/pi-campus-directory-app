@@ -1,4 +1,22 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Campus Directory App
+
+Author: Pierce Issah
+
+## Table of Content
+
+- [Viewing the App](#viewing-the-app)
+- [Project Overview](#project-overview)
+- [Getting Started](#getting-started)
+- [Learn More](#learn-more)
+- [Delpoying on Vercel](#deploy-on-vercel)
+
+## Viewing the App
+
+Below are links that will direct you to the app.
+
+## Project Overview
+
+Project Description
 
 ## Getting Started
 
