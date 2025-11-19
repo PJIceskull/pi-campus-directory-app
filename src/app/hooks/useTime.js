@@ -3,20 +3,19 @@
 import { useState, useEffect } from "react";
 
 export default function useTime() {
-  const [currentTime, setCurrentTime] = useState(new Date());
+  const [time, setTime] = useState(new Date());
   const [currentDate, setCurrentDate] = useState("");
   const [error, setError] = useState(null);
 
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentTime(new Date());
-      //   return () => clearInterval(interval);
-      return currentTime;
+      return () => clearInterval(interval);
     }, 1000);
-  }, [currentTime]);
+  }, [setTime]);
 
-  //   console.log(currentTime);
-  //   console.log(currentTime.toLocaleTimeString());
+  //   console.log(time);
+  //   console.log(time.toLocaleTimeString());
 
-  return currentTime.toLocaleTimeString;
+  return { time };
 }

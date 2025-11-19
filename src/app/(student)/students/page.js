@@ -12,7 +12,7 @@ export default function Page() {
     { name: "Cynthia", major: "Psych", year: "Senior" },
   ];
 
-  const { currentTime } = useTime();
+  const { time } = useTime();
 
   return (
     <main className="p-8">
